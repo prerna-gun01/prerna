@@ -1,113 +1,287 @@
-import Image from "next/image";
+"use client"
+import React, { useState } from 'react'
+import Style from "../css/home.module.css"
+import { FiPhoneCall } from "react-icons/fi";
+import { MdOutlineEmail } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
+import { FaLinkedin } from "react-icons/fa6";
+import { VscGithub } from "react-icons/vsc";
+import { FaBehance } from "react-icons/fa6";
 
-export default function Home() {
+const page = () => {
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [phone, setPhone] = useState('');
+  const [service, setService] = useState('');
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    console.log(name, surname, message, service, email, phone);
+
+    const formData = {
+      name,
+      surname,
+      message,
+      service,
+      email,
+      phone
+    };
+
+    try {
+      const response = await fetch('/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        console.log('Email sent successfully!');
+      } else {
+        console.error('Failed to send email:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error sending email:', error.message);
+    }
+  }
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className={`${Style.backgroundimage} bg-black`}>
+      <div className="container px-5 pt-10 pb-5">
+        <div className={`${Style.grid}`}>
+
+          <div className="">
+            <div className={`text-white p-1 text-center md:text-left backdrop-blur-md md:p-5 mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+
+              <div className="">
+                <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 `}>
+                  <img src="./insan.png" alt="" />
+                </div>
+                <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2`}>
+                  I am SuKu
+                </div>
+                <div className={`${Style.border} ${Style.borderinner} h-fit mb-2 p-2`}>
+                  <span className={`${Style.texth}`}>Graphic Designer <br />UX Designer</span>
+                  <br />
+                  <span className={`${Style.textp}`}>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</span>
+                </div>
+              </div>
+            </div>
+
+            <div className={`text-white p-1 text-center md:text-left backdrop-blur-md md:p-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              <div className={`${Style.texth} text-center text-lg font-semibold p-1`}>
+                My Education
+              </div>
+              <div className={`${Style.textp}`}>
+                <div className="grid grid-cols-2 grid-rows-1 gap-2 mb-2 mt-2">
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                </div>
+                <div className="grid grid-cols-2 grid-rows-1 gap-2">
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="">
+            <div className={`text-white p-1 text-center backdrop-blur-md md:text-left md:p-5 mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+
+              <div className={`text-center ${Style.texth} font-semibold p-1`}>
+                My Skills
+              </div>
+              <div className={`text-center ${Style.textp} p-1`}>
+                We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
+              </div>
+
+              <div className="grid grid-cols-5 grid-rows-1 gap-4 p-2">
+                <div className={`${Style.borderinner} ${Style.border} p-1 `}>
+                  <img src='./next.svg' className="h-10" />
+                  <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>Photoshop</div>
+                </div>
+                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                  <img src='./next.svg' className="h-10" />
+                  <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>Illustrator</div>
+                </div>
+                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                  <img src='./next.svg' className="h-10" />
+                  <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>Aftereffect</div>
+                </div>
+                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                  <img src='./next.svg' className="h-10" />
+                  <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>Premier Pro</div>
+                </div>
+                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                  <img src='./next.svg' className="h-10" />
+                  <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>3Ds Max</div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className={`text-white p-1 text-center backdrop-blur-md md:text-left md:p-5 mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              <div className={`text-center ${Style.texth} font-semibold p-1`}>
+                My Quality Services
+              </div>
+              <div className={`text-center ${Style.textp} p-1`}>
+                We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
+              </div>
+              <div className="p-1 grid grid-cols-3 gap-4">
+                <div className={`${Style.border} ${Style.borderinner} ${Style.text} p-1 mb-1`}>Graphic Design</div>
+                <div className={`${Style.border} ${Style.borderinner} ${Style.text} p-1 mb-1`}>Motion Graphics</div>
+                <div className={`${Style.border} ${Style.borderinner} ${Style.text} p-1 mb-1`}>Video Editing</div>
+                <div className={`${Style.border} ${Style.borderinner} ${Style.text} p-1 mb-1`}>Illustrations</div>
+                <div className={`${Style.border} ${Style.borderinner} ${Style.text} p-1 `}>3D Models</div>
+              </div>
+            </div>
+
+            <div className={`text-white p-1 text-center backdrop-blur-md md:text-left md:p-5 mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              <div className={`text-center ${Style.texth} font-semibold p-1`}>
+                My Work
+              </div>
+              <div className={`text-center ${Style.textp} p-1`}>
+                We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
+              </div>
+
+              <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
+                <div className={`${Style.border} ${Style.borderinner}`}>
+                  <img src="./Portfolio.png" alt="" className='h-16' />
+                </div>
+                <div className={`${Style.border} ${Style.borderinner}`}>
+                  <img src="./Portfolio.png" alt="" className='h-16' />
+                </div>
+                <div className={`${Style.border} ${Style.borderinner}`}>
+                  <img src="./Portfolio.png" alt="" className='h-16' />
+                </div>
+                <div className={`${Style.border} ${Style.borderinner}`}>
+                  <img src="./Portfolio.png" alt="" className='h-16' />
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="">
+            <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              <div className={`text-center ${Style.texth} font-semibold p-1`}>
+                My Experience
+              </div>
+              <div className={`${Style.textp}`}>
+                <div className="grid grid-cols-2 grid-rows-1 gap-2 mb-2 mt-2">
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                </div>
+                <div className="grid grid-cols-2 grid-rows-1 gap-2">
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                  <div >2024 - Present Lead Developer Blockdots, London</div>
+                </div>
+              </div>
+            </div>
+
+            <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              Download CV
+            </div>
+
+            
+
+            <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold`}>
+                Let us Work Together!
+              </div>
+              <div className={`${Style.border} ${Style.borderinner} text-center h-fit mb-2 p-2 ${Style.textp}`}>
+                I design and code beautifully simple things and I love what I do. Just simple like that!
+              </div>
+
+              <div className='h-fit'>
+
+                <div className="grid grid-cols-2 grid-rows-1 gap-2">
+
+                  <div className={`${Style.border} ${Style.borderinner} `}>
+                    <form onSubmit={handleFormSubmit}>
+                      <div className={`grid grid-cols-2 grid-rows-2 gap-1 ${Style.textp} p-2`}>
+
+
+                        <div className={`${Style.line} p-1`}>
+                          <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder='Name' className='w-full bg-transparent focus:outline-0' />
+                        </div>
+                        <div className={`${Style.line} p-1`}>
+                          <input type="text" value={surname} onChange={(e) => setSurname(e.target.value)} placeholder='Surname' className='w-full bg-transparent focus:outline-0' />
+                        </div>
+                        <div className={`${Style.line} p-1`}>
+                          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email' className='w-full bg-transparent focus:outline-0' />
+                        </div>
+                        <div className={`${Style.line} p-1`}>
+                          <input type="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder='Tel No.' className='w-full bg-transparent focus:outline-0' />
+                        </div>
+
+                      </div>
+                      <div className={`${Style.line} ${Style.textp} mx-2 p-1`}>
+                        <select className='bg-transparent focus:outline-none' defaultValue={'nothing'} onChange={(e) => setService(e.target.value)}>
+                          <option value="nothing" className='bg-gray-600' disabled >Choose Service</option>
+                          <option value="Graphic Design" className='bg-gray-600'>Graphic Design</option>
+                          <option value="Motion Graphics" className='bg-gray-600'>Motion Graphics</option>
+                          <option value="Video Editing" className='bg-gray-600'>Video Editing</option>
+                          <option value="Illustrations" className='bg-gray-600'>Illustrations</option>
+                          <option value="3D Models" className='bg-gray-600'>3D Models</option>
+                        </select>
+                      </div>
+                      <div className={`${Style.line} ${Style.textp} mx-2 p-1`}>
+                        <textarea rows="2" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Message' className='bg-transparent focus:outline-none w-full p-1'></textarea>
+                      </div>
+                      <div className={`${Style.line} ${Style.textp} text-center p-1 mx-2`}>
+                        <button className='' type='submit'>Submit</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div className={`${Style.border} ${Style.borderinner} ${Style.textp}`}>
+                    <div className="p-2">
+                      <div className='text-gray-300'>
+                        <FiPhoneCall className='inline' /> <span> Phone</span>
+                      </div>
+                      <div>7218863811</div>
+                    </div>
+                    <div className="p-2">
+                      <div className='text-gray-300'>
+                        <MdOutlineEmail className='inline' /> <span> Email</span>
+                      </div>
+                      <div className=''>suyashkumbhar77<br />@gmail.com</div>
+                    </div>
+                    <div className="p-2">
+                      <div className='text-gray-300'>
+                        <IoLocationOutline className='inline' /> <span> Address</span>
+                      </div>
+                      <div className=''>Nivara Colony, Bhosalewadi Kolhapur</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer  backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+              Hire Me
+            </div>
+
+          </div>
+
+        </div>
+        <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+        <FaLinkedin className='inline mx-2 cursor-pointer'/>
+        <VscGithub className='inline mx-2 cursor-pointer'/>
+        <FaBehance className='inline mx-2 cursor-pointer'/>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    </div>
+  )
 }
+
+export default page

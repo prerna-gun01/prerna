@@ -1,0 +1,62 @@
+.backgroundimage {
+    background-image: url('/16282.jpg');
+    height: 100vh;
+}
+
+.backgroundColor{
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+.border{
+   
+    border-top: 1px white solid;
+    border-right: 1px white solid;
+}
+.bordercontainer{
+    border-radius: 5px;
+}
+
+.borderinner{
+    border-radius: 2.5px;
+}
+
+.borderinset{
+    border-radius: 1.25px;
+}
+
+.line{
+    border-bottom: 1px white solid;
+    border-radius: 1.25px;
+}
+
+.grid{
+    display: grid;
+    
+    grid-column-gap: 60px;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    
+}
+.text {
+    font-size: 8px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.textp {
+    font-size: 10px;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center;  */
+}
+.texth {
+    font-size: 14px;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center;  */
+}
