@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { VscGithub } from "react-icons/vsc";
 import { FaBehance } from "react-icons/fa6";
 
-const page = () => {
+const Page = () => {
   const [name, setName] = useState('');
   const [surname, setSurname] = useState('');
   const [email, setEmail] = useState('');
@@ -284,4 +284,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
