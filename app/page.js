@@ -2,6 +2,7 @@
 import React from 'react';
 import Big from './components/Big';
 import Small from './components/Small';
+import Footer from './components/Footer';
 import Style from '../css/home.module.css'
 const Page = () => {
   return (
@@ -12,6 +13,7 @@ const Page = () => {
       <div className={`${Style.smallContainer}`}>
         <Small className='' />
       </div>
+      <Footer className='bg-[#3D3E3F]'/>
     </div>
   );
 };

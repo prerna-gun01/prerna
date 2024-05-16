@@ -97,13 +97,13 @@ const Page = () => {
                         <div className={`text-white p-1 text-center md:text-left backdrop-blur-md md:p-5 mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
 
                             <div className="">
-                                <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 `}>
-                                    <img src="./my.webp" alt="" className='w-24' />
+                                <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <img src="./image 4.png" alt="" className='w-40 p-2' />
                                 </div>
-                                <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2`}>
+                                <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     I am Prerna Kangtani
                                 </div>
-                                <div className={`${Style.border} ${Style.borderinner} h-fit mb-2 p-2`}>
+                                <div className={`${Style.border} ${Style.borderinner} h-fit mb-2 p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <span className={`${Style.texth}`}>Website Developer <br />Web Designer</span>
                                     <br />
                                     <span className={`${Style.textp}`}>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</span>
@@ -114,7 +114,7 @@ const Page = () => {
 
                         {/* Contact me */}
                         <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
-                            <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold`}>
+                            <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                 Contact Me
                             </div>
                             {/* <div className={`${Style.border} ${Style.borderinner} text-center h-fit mb-2 p-2 ${Style.textp}`}>
@@ -125,20 +125,20 @@ const Page = () => {
 
                                 <div className="">
 
-                                    <div className={`${Style.border} ${Style.borderinner} ${Style.textp} grid grid-cols-2`}>
-                                        <div className="p-2">
+                                    <div className={`${Style.border} ${Style.borderinner} ${Style.textp} grid grid-cols-2 `}>
+                                        <div className="p-2 cursor-pointer">
                                             <div className='text-gray-300'>
                                                 <FiPhoneCall className='inline' /> <span> Phone</span>
                                             </div>
                                             <div>8767322683</div>
                                         </div>
-                                        <div className="p-2">
-                                            <div className='text-gray-300'>
+                                        <div className="p-2 cursor-pointer">
+                                            <div className='text-gray-300 '>
                                                 <MdOutlineEmail className='inline' /> <span> Email</span>
                                             </div>
                                             <div className=''>prean14012003@gmail.com</div>
                                         </div>
-                                        <div className="p-2 col-span-2">
+                                        <div className="p-2 col-span-2 cursor-pointer">
                                             <div className='text-gray-300'>
                                                 <IoLocationOutline className='inline' /> <span> Address</span>
                                             </div>
@@ -163,49 +163,52 @@ const Page = () => {
                                 We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
                             </div>
 
-                            <div className="grid grid-cols-4 grid-rows-2 gap-4 p-2">
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                            <div className="grid grid-cols-4 grid-rows-2 gap-4 p-2 ">
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./JavaScript-logo.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>JavaScript</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center '>
                                         <img src='./pngegg.png' className="h-10" />
                                     </div>
 
                                     <div className={` ${Style.text} ${Style.text} `}>React JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
-                                    <img src='./next.svg' className="h-10" />
-                                    <div className={`${Style.border} ${Style.borderinset} ${Style.text} ${Style.text}`}>Next JS</div>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className='flex justify-center '>
+                                        <img src='./next.svg' className="h-10" />
+                                    </div>
+
+                                    <div className={` ${Style.text} ${Style.text} `}>Next JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./node-js.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>Node JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./JavaScript-logo.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>HTML, CSS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse `}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./new-php-logo.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>PHP</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./1012821_code_development_logo_mysql_icon.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>MYSQL</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./C_Programming_Language.svg' className="h-10" />
                                     </div>
@@ -233,7 +236,7 @@ const Page = () => {
             </div> */}
 
                         {/* My Work */}
-                        <div className={`text-white p-1 text-center backdrop-blur-md md:text-left md:p-5 mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+                        <div className={`text-white p-1 text-center backdrop-blur-md md:text-left md:p-5 mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} `}>
                             <div className={`text-center ${Style.texth} font-semibold p-1`}>
                                 My Work
                             </div>
@@ -242,19 +245,19 @@ const Page = () => {
                             </div>
 
                             <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
-                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=551-2&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=391%3A4' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=551-2&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=391%3A4' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
                                     <img src="./thirsty.png" alt="" className='h-16 p-1 rounded-sm' />
                                 </a>
-                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={`${Style.text} p-1 mb-1`}>Web Development</div>
                                     <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
                                 </a>
-                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=79-420&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=79%3A419' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=79-420&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=79%3A419' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
                                     <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
-                                <a href='https://prerna-portfolio-seven.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                                <a href='https://prerna-portfolio-seven.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={`${Style.text} p-1 mb-1`}>Web Development</div>
                                     <img src="./Portfolio.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
@@ -263,14 +266,14 @@ const Page = () => {
 
                         </div>
 
-                        <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+                        <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <a download href='/prernaResume.pdf' >
                                 Download CV
                             </a>
                         </div>
 
-                        <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
-                            <a target='_blank' href='/prernaResume.pdf' className={`text-center h-fit mb-2 p-1 text-xs font-semibold inline-block cursor-pointer`}>
+                        <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                            <a target='_blank' href='/prernaResume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
                                 Hire Me
                             </a>
                             <a href="www.linkedin.com/in/prerna-kangtani-jain-584669224" target='_blank'><FaLinkedin className='inline mx-2 cursor-pointer' /></a>
@@ -284,7 +287,7 @@ const Page = () => {
 
 
                         {/* My Experience */}
-                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <div className={`text-center ${Style.texth} font-semibold p-1`}>
                                 My Experience
                             </div>
@@ -311,7 +314,7 @@ const Page = () => {
                         </div>
 
                         {/* education */}
-                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <div className={`text-center ${Style.texth} font-semibold p-1`}>
                                 My Education
                             </div>
@@ -333,7 +336,7 @@ const Page = () => {
                         </div>
 
                         {/* Form */}
-                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
+                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} `}>
 
                             <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold`}>
                                 Let us Work Together!
@@ -348,21 +351,21 @@ const Page = () => {
                                             <div className={`grid grid-cols-2 grid-rows-2 gap-1 ${Style.textp} p-2`}>
 
 
-                                                <div className={`${Style.line} p-1`}>
+                                                <div className={`${Style.line} p-1  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="text" name='name' onChange={(e) => setFormdata({ ...formdata, name: e.target.value })} placeholder='Name' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1`}>
+                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="text" name='surname' onChange={(e) => setFormdata({ ...formdata, surname: e.target.value })} placeholder='Surname' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1`}>
+                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="email" name='email' onChange={(e) => setFormdata({ ...formdata, email: e.target.value })} placeholder='Email' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1`}>
+                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="tel" name='phone' onChange={(e) => setFormdata({ ...formdata, phone: e.target.value })} placeholder='Tel No.' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
 
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1`}>
+                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <select className='w-full bg-transparent focus:outline-none' defaultValue={'nothing'} onChange={(e) => setFormdata({ ...formdata, service: e.target.value })} name='service'>
                                                     <option value="nothing" className='bg-gray-600' disabled >Choose Service</option>
                                                     <option value="Web Designing" className='bg-gray-600'>Web Designing</option>
@@ -370,10 +373,10 @@ const Page = () => {
 
                                                 </select>
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1`}>
+                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <textarea rows="2" name='message' onChange={(e) => setFormdata({ ...formdata, message: e.target.value })} placeholder='Message' className='bg-transparent focus:outline-none w-full p-1'></textarea>
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} text-center p-1 mx-2`}>
+                                            <div className={`${Style.line} ${Style.textp} text-center p-1 mx-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <button className='' type='submit'>Submit</button>
                                             </div>
                                         </form>
@@ -387,6 +390,7 @@ const Page = () => {
 
 
                     </div>
+                    
 
                 </div>
 
