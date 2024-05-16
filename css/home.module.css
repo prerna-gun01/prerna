@@ -1,6 +1,9 @@
 .backgroundimage {
-    background-image: url('/16282.jpg');
+    background-image: url('/world-map 1.png');
+    background-size: cover;
     height: 100vh;
+    /* opacity: 0.9; */
+    
 }
 
 .backgroundColor{
@@ -13,6 +16,7 @@
     border-top: 1px white solid;
     border-right: 1px white solid;
 }
+
 .bordercontainer{
     border-radius: 5px;
 }
@@ -60,3 +64,22 @@
     justify-content: center; 
     align-items: center;  */
 }
+
+.bigContainer {
+    display: block;
+  }
+  
+  .smallContainer {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .bigContainer {
+      display: none;
+    }
+  
+    .smallContainer {
+      display: block;
+    }
+  }
+  
