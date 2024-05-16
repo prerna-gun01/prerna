@@ -254,9 +254,9 @@ const Page = () => {
                                     <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
                                     <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
-                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                                <a href='https://prerna-portfolio-seven.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
                                     <div className={`${Style.text} p-1 mb-1`}>Web Development</div>
-                                    <img src="./portfolio.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                                    <img src="./Portfolio.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
 
                             </div>
