@@ -192,7 +192,7 @@ const Page = () => {
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./JavaScript-logo.png' className="h-10" />
+                                        <img src='./HTML.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>HTML, CSS</div>
                                 </div>
@@ -276,7 +276,7 @@ const Page = () => {
                             <a target='_blank' href='/prernaResume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
                                 Hire Me
                             </a>
-                            <a href="www.linkedin.com/in/prerna-kangtani-jain-584669224" target='_blank'><FaLinkedin className='inline mx-2 cursor-pointer' /></a>
+                            <a href="https://www.linkedin.com/in/prerna-kangtani-jain-584669224/" target='_blank'><FaLinkedin className='inline mx-2 cursor-pointer' /></a>
                             <a href="https://github.com/prerna-gun01" target='_blank'><VscGithub className='inline mx-2 cursor-pointer' /></a>
                             {/* <FaBehance className='inline mx-2 cursor-pointer' /> */}
                         </div>
@@ -390,7 +390,7 @@ const Page = () => {
 
 
                     </div>
-                    
+
 
                 </div>
 
