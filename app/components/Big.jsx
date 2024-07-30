@@ -245,21 +245,21 @@ const Page = () => {
                             </div>
 
                             <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
-                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=551-2&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=391%3A4' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
-                                    <img src="./thirsty.png" alt="" className='h-16 p-1 rounded-sm' />
+                                <a href='https://mahalaxmibiogreen.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={` ${Style.text} p-1 mb-1`}>Shree Mahalxmi</div>
+                                    <img src="./shree.png" alt="" className='h-16 p-1 w-full rounded-sm' />
                                 </a>
                                 <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={`${Style.text} p-1 mb-1`}>Web Development</div>
+                                    <div className={`${Style.text} p-1 mb-1`}>Portfolio</div>
                                     <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
                                 </a>
-                                <a href='https://www.figma.com/proto/rlgd90nR1u43BiY8JEjXP2/Desktop-3?node-id=79-420&t=rFqerhlil1EGBYcQ-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=79%3A419' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
+                                <a href='http://irontribe.in' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={` ${Style.text} p-1 mb-1`}>Iron Tribe</div>
                                     <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
-                                <a href='https://prerna-portfolio-seven.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={`${Style.text} p-1 mb-1`}>Web Development</div>
-                                    <img src="./Portfolio.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                                <a href='https://www.badrivishalgroup.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={`${Style.text} p-1 mb-1`}>Badri Vishal</div>
+                                    <img src="./badri.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
 
                             </div>
@@ -267,13 +267,13 @@ const Page = () => {
                         </div>
 
                         <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                            <a download href='/prernaResume.pdf' >
+                            <a download href='/resume.pdf' >
                                 Download CV
                             </a>
                         </div>
 
                         <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                            <a target='_blank' href='/prernaResume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
+                            <a target='_blank' href='/resume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
                                 Hire Me
                             </a>
                             <a href="https://www.linkedin.com/in/prerna-kangtani-jain-584669224/" target='_blank'><FaLinkedin className='inline mx-2 cursor-pointer' /></a>
@@ -322,7 +322,7 @@ const Page = () => {
                                 <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
                                     <div className='flex justify-center'>
                                         <span >2021 - 2024</span>
-                                        <span className='pl-2 text-xs'>bachelor Computer Applicatiion, Amity Online</span>
+                                        <span className='pl-2 text-xs'>Bachelor of Computer Application, Amity University Online</span>
                                     </div>
                                 </div>
                                 <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
