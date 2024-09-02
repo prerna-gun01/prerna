@@ -88,7 +88,7 @@ const Page = () => {
                 pauseOnHover
                 theme="dark"
             />
-            <div className="container px-5 pt-10 pb-5">
+            <div className="container px-40 pt-14">
                 <div className={`${Style.grid}`}>
 
                     <div className="">
@@ -97,13 +97,13 @@ const Page = () => {
                         <div className={`text-white p-1 text-center md:text-left backdrop-blur-md md:p-5 mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
 
                             <div className="">
-                                <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <img src="./image 4.png" alt="" className='w-40 p-2' />
                                 </div>
-                                <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     I am Prerna Kangtani
                                 </div>
-                                <div className={`${Style.border} ${Style.borderinner} h-fit mb-2 p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.border} ${Style.borderinner} h-fit mb-2 p-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <span className={`${Style.texth}`}>Website Developer <br />Web Designer</span>
                                     <br />
                                     <span className={`${Style.textp}`}>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people.</span>
@@ -114,7 +114,7 @@ const Page = () => {
 
                         {/* Contact me */}
                         <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer}`}>
-                            <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                            <div className={`text-center h-fit mb-2 p-1 ${Style.texth} font-semibold after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                 Contact Me
                             </div>
                             {/* <div className={`${Style.border} ${Style.borderinner} text-center h-fit mb-2 p-2 ${Style.textp}`}>
@@ -126,13 +126,13 @@ const Page = () => {
                                 <div className="">
 
                                     <div className={`${Style.border} ${Style.borderinner} ${Style.textp} grid grid-cols-2 `}>
-                                        <div className="p-2 cursor-pointer">
+                                        <div className="p-2  cursor-pointer">
                                             <div className='text-gray-300'>
                                                 <FiPhoneCall className='inline' /> <span> Phone</span>
                                             </div>
                                             <div>8767322683</div>
                                         </div>
-                                        <div className="p-2 cursor-pointer">
+                                        <div className="p-2 col-span-2  cursor-pointer">
                                             <div className='text-gray-300 '>
                                                 <MdOutlineEmail className='inline' /> <span> Email</span>
                                             </div>
@@ -164,55 +164,55 @@ const Page = () => {
                             </div>
 
                             <div className="grid grid-cols-4 grid-rows-2 gap-4 p-2 ">
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./JavaScript-logo.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>JavaScript</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center '>
                                         <img src='./pngegg.png' className="h-10" />
                                     </div>
 
                                     <div className={` ${Style.text} ${Style.text} `}>React JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center '>
                                         <img src='./next.svg' className="h-10" />
                                     </div>
 
                                     <div className={` ${Style.text} ${Style.text} `}>Next JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./node-js.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>Node JS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./HTML.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>HTML, CSS</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse `}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse `}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./new-php-logo.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>PHP</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
                                         <img src='./1012821_code_development_logo_mysql_icon.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>MYSQL</div>
                                 </div>
-                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./C_Programming_Language.svg' className="h-10" />
+                                        <img src='./figma.svg' className="h-10" />
                                     </div>
-                                    <div className={` ${Style.text} ${Style.text} `}>C</div>
+                                    <div className={` ${Style.text} ${Style.text} `}>Figma</div>
                                 </div>
 
                             </div>
@@ -245,34 +245,36 @@ const Page = () => {
                             </div>
 
                             <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
-                                <a href='https://mahalaxmibiogreen.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <a href='https://test-truly-good.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={` ${Style.text} p-1 mb-1`}>Truly Good</div>
+                                    <img src="./trulyGood.png" alt="" className='h-16 p-1 w-full rounded-sm' />
+                                </a>
+                                <a href='https://mahalaxmibiogreen.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Shree Mahalxmi</div>
                                     <img src="./shree.png" alt="" className='h-16 p-1 w-full rounded-sm' />
                                 </a>
-                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={`${Style.text} p-1 mb-1`}>Portfolio</div>
-                                    <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
-                                </a>
-                                <a href='http://irontribe.in' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+
+                                <a href='http://irontribe.in' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Iron Tribe</div>
                                     <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
-                                <a href='https://www.badrivishalgroup.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <div className={`${Style.text} p-1 mb-1`}>Badri Vishal</div>
-                                    <img src="./badri.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={`${Style.text} p-1 mb-1`}>Portfolio</div>
+                                    <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
                                 </a>
+
 
                             </div>
 
                         </div>
 
-                        <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                        <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <a download href='/resume.pdf' >
                                 Download CV
                             </a>
                         </div>
 
-                        <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                        <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <a target='_blank' href='/resume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
                                 Hire Me
                             </a>
@@ -287,7 +289,7 @@ const Page = () => {
 
 
                         {/* My Experience */}
-                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <div className={`text-center ${Style.texth} font-semibold p-1`}>
                                 My Experience
                             </div>
@@ -314,7 +316,7 @@ const Page = () => {
                         </div>
 
                         {/* education */}
-                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                        <div className={`text-white p-1 text-center md:text-left md:p-5 backdrop-blur-md mb-5 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                             <div className={`text-center ${Style.texth} font-semibold p-1`}>
                                 My Education
                             </div>
@@ -351,21 +353,21 @@ const Page = () => {
                                             <div className={`grid grid-cols-2 grid-rows-2 gap-1 ${Style.textp} p-2`}>
 
 
-                                                <div className={`${Style.line} p-1  after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                                <div className={`${Style.line} p-1  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="text" name='name' onChange={(e) => setFormdata({ ...formdata, name: e.target.value })} placeholder='Name' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                                <div className={`${Style.line} p-1 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="text" name='surname' onChange={(e) => setFormdata({ ...formdata, surname: e.target.value })} placeholder='Surname' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                                <div className={`${Style.line} p-1 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="email" name='email' onChange={(e) => setFormdata({ ...formdata, email: e.target.value })} placeholder='Email' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
-                                                <div className={`${Style.line} p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                                <div className={`${Style.line} p-1 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                     <input type="tel" name='phone' onChange={(e) => setFormdata({ ...formdata, phone: e.target.value })} placeholder='Tel No.' className='w-full bg-transparent focus:outline-0' />
                                                 </div>
 
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <select className='w-full bg-transparent focus:outline-none' defaultValue={'nothing'} onChange={(e) => setFormdata({ ...formdata, service: e.target.value })} name='service'>
                                                     <option value="nothing" className='bg-gray-600' disabled >Choose Service</option>
                                                     <option value="Web Designing" className='bg-gray-600'>Web Designing</option>
@@ -373,10 +375,10 @@ const Page = () => {
 
                                                 </select>
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                            <div className={`${Style.line} ${Style.textp} mx-2 p-1 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <textarea rows="2" name='message' onChange={(e) => setFormdata({ ...formdata, message: e.target.value })} placeholder='Message' className='bg-transparent focus:outline-none w-full p-1'></textarea>
                                             </div>
-                                            <div className={`${Style.line} ${Style.textp} text-center p-1 mx-2 after:bg-yellow-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-yellow-500/50 hover:text-yellow-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                            <div className={`${Style.line} ${Style.textp} text-center p-1 mx-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                                 <button className='' type='submit'>Submit</button>
                                             </div>
                                         </form>

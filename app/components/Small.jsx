@@ -9,7 +9,7 @@ import { VscGithub } from "react-icons/vsc";
 import { FaBehance } from "react-icons/fa6";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Link from 'next/link';
 const Page = () => {
 
 
@@ -126,18 +126,18 @@ const Page = () => {
                 <div className="">
 
                   <div className={` ${Style.textp} grid grid-cols-2`}>
-                    <div className="p-2">
+                    <Link href="tel:+918767322683" className="p-2">
                       <div className='text-gray-300'>
                         <FiPhoneCall className='inline' /> <span> Phone</span>
                       </div>
                       <div>8767322683</div>
-                    </div>
-                    <div className="p-2">
+                    </Link>
+                    <Link href="mailto:prean14012003@gmail.com" className="p-2">
                       <div className='text-gray-300'>
                         <MdOutlineEmail className='inline' /> <span> Email</span>
                       </div>
                       <div className=''>prean14012003@gmail.com</div>
-                    </div>
+                    </Link>
                     <div className="p-2 col-span-2">
                       <div className='text-gray-300'>
                         <IoLocationOutline className='inline' /> <span> Address</span>
@@ -210,9 +210,9 @@ const Page = () => {
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./C_Programming_Language.svg' className="h-10" />
+                    <img src='./figma.svg' className="h-10" />
                   </div>
-                  <div className={` ${Style.text} ${Style.text} `}>C</div>
+                  <div className={` ${Style.text} ${Style.text} `}>Figma</div>
                 </div>
 
               </div>
