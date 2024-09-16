@@ -269,13 +269,13 @@ const Page = () => {
                         </div>
 
                         <div className={`text-white p-2 text-center ${Style.texth} font-semibold cursor-pointer mb-5 backdrop-blur-md  md:rounded-lg ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                            <a download href='/resume.pdf' >
+                            <a download href='/prerna_resume.pdf' >
                                 Download CV
                             </a>
                         </div>
 
                         <div className={`text-white  mx-auto p-2 w-fit backdrop-blur-md mt-2 ${Style.backgroundColor} ${Style.border} ${Style.bordercontainer} after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                            <a target='_blank' href='/resume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
+                            <a target='_blank' href='/prerna_resume.pdf' className={`text-center h-fit  p-1 text-xs font-semibold inline-block cursor-pointer`}>
                                 Hire Me
                             </a>
                             <a href="https://www.linkedin.com/in/prerna-kangtani-jain-584669224/" target='_blank'><FaLinkedin className='inline mx-2 cursor-pointer' /></a>
