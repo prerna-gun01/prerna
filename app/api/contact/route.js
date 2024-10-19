@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 // mail to my self
 async function main(name, email, message, phone, service) {
     const info = await transporter.sendMail({
-        from: `Prerna kangtani <prernatf@gmail.com>`, 
+        from: `Prerna kangtani <prean14012003@gmail.com>`, 
         to: `${email}`, 
         subject: `Thank you for contacting me, ${name}`, 
         html: `<p style="font-family:Arial, sans-serif;font-size:16px;">Thank you for reaching out to me. <br><br> I have received your message and will get back to you soon.<br><br>Have a great day!<br><br>Best Regards,<br>Prerna</p>`, 
@@ -20,7 +20,7 @@ async function main(name, email, message, phone, service) {
 
     const info2 = await transporter.sendMail({
         from: `${name} <${email}>`,
-        to: `prernatf@gmail.com`, 
+        to: `prean14012003@gmail.com`, 
         subject: `You have received a message from your website`, 
         html: `<p style="font-family:Arial, sans-serif;font-size:16px;">You have received a message from <b>${name}</b> with email <a style="color:#337ab7;" href="mailto:${email}">${email}</a> and phone number <b>${phone}</b> and service <b>${service}</b> and the message:<br><i style="font-style:italic;color:#337ab7;">${message}</i></p>`, 
 

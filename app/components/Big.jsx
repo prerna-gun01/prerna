@@ -9,7 +9,7 @@ import { VscGithub } from "react-icons/vsc";
 import { FaBehance } from "react-icons/fa6";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Image from 'next/image';
 const Page = () => {
 
 
@@ -98,7 +98,7 @@ const Page = () => {
 
                             <div className="">
                                 <div className={`${Style.border} ${Style.borderinner} mx-auto w-max mb-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
-                                    <img src="./image 4.png" alt="" className='w-40 p-2' />
+                                    <Image height={1000} width={1000}  src="/me.png" alt="" className='w-40 p-2' />
                                 </div>
                                 <div className={`${Style.border} ${Style.borderinner} ${Style.texth} text-center h-fit mb-2 p-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     I am Prerna Kangtani
@@ -138,12 +138,12 @@ const Page = () => {
                                             </div>
                                             <div className=''>prean14012003@gmail.com</div>
                                         </div>
-                                        <div className="p-2 col-span-2 cursor-pointer">
+                                        {/* <div className="p-2 col-span-2 cursor-pointer">
                                             <div className='text-gray-300'>
                                                 <IoLocationOutline className='inline' /> <span> Address</span>
                                             </div>
                                             <div className=''>2/32, Bohra Market, Ichalkaranji</div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
 
@@ -166,51 +166,51 @@ const Page = () => {
                             <div className="grid grid-cols-4 grid-rows-2 gap-4 p-2 ">
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./JavaScript-logo.png' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/JavaScript-logo.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>JavaScript</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center '>
-                                        <img src='./pngegg.png' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/pngegg.png' className="h-10" />
                                     </div>
 
                                     <div className={` ${Style.text} ${Style.text} `}>React JS</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center '>
-                                        <img src='./next.svg' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/next.svg' className="h-10" />
                                     </div>
 
                                     <div className={` ${Style.text} ${Style.text} `}>Next JS</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./node-js.svg' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/node-js.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>Node JS</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./HTML.png' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/HTML.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>HTML, CSS</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2 after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse `}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./new-php-logo.svg' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/new-php-logo.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>PHP</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./1012821_code_development_logo_mysql_icon.png' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/1012821_code_development_logo_mysql_icon.png' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>MYSQL</div>
                                 </div>
                                 <div className={`${Style.borderinner} ${Style.border} p-2  after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className='flex justify-center pb-1'>
-                                        <img src='./figma.svg' className="h-10" />
+                                        <Image height={1000} width={1000}  src='/figma.svg' className="h-10" />
                                     </div>
                                     <div className={` ${Style.text} ${Style.text} `}>Figma</div>
                                 </div>
@@ -245,23 +245,27 @@ const Page = () => {
                             </div>
 
                             <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
-                                <a href='https://test-truly-good.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                <a href='https://trulygood.in/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Truly Good</div>
-                                    <img src="./trulyGood.png" alt="" className='h-16 p-1 w-full rounded-sm' />
+                                    <Image height={1000} width={1000}  src="/trulyGood.png" alt="" className='h-16 p-1 w-full rounded-sm' />
+                                </a>
+                                <a href='https://india-electricals.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                    <div className={` ${Style.text} p-1 mb-1`}>India Electricals</div>
+                                    <Image height={1000} width={1000}  src="/indiaelectricals.png" alt="" className='h-16 p-1 w-full rounded-sm' />
                                 </a>
                                 <a href='https://mahalaxmibiogreen.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Shree Mahalxmi</div>
-                                    <img src="./shree.png" alt="" className='h-16 p-1 w-full rounded-sm' />
+                                    <Image height={1000} width={1000}  src="/shree.png" alt="" className='h-16 p-1 w-full rounded-sm' />
                                 </a>
 
                                 <a href='http://irontribe.in' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={` ${Style.text} p-1 mb-1`}>Iron Tribe</div>
-                                    <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                                    <Image height={1000} width={1000}  src="/ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                                 </a>
-                                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
+                                {/* <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full after:bg-sky-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-sky-500/50 hover:text-sky-500/70 after:hover:bg-opacity-15 focus:ring-2 after:inset-0 after:-z-10 after:animate-pulse`}>
                                     <div className={`${Style.text} p-1 mb-1`}>Portfolio</div>
-                                    <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
-                                </a>
+                                    <Image height={1000} width={1000}  src="/rojim.png" alt="" className='h-16  p-1 rounded-sm' />
+                                </a> */}
 
 
                             </div>
@@ -306,12 +310,12 @@ const Page = () => {
                                         <span className='pl-2 text-xs'>Web Development Training, Acmegrade</span>
                                     </div>
                                 </div>
-                                <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
+                                {/* <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
                                     <div className='flex justify-center'>
                                         <span >2022 - 2023</span>
                                         <span className='pl-2 text-xs'>Research Associate, Ameliorate Digital</span>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -372,6 +376,8 @@ const Page = () => {
                                                     <option value="nothing" className='bg-gray-600' disabled >Choose Service</option>
                                                     <option value="Web Designing" className='bg-gray-600'>Web Designing</option>
                                                     <option value="Web Development" className='bg-gray-600'>Web Development</option>
+                                                    {/* <option value="Contenet Writing" className='bg-gray-600'>Contenet Writing</option>
+                                                    <option value="Social Media Writing" className='bg-gray-600'>Social Media Writing</option> */}
 
                                                 </select>
                                             </div>

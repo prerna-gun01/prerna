@@ -10,6 +10,7 @@ import { FaBehance } from "react-icons/fa6";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Link from 'next/link';
+import Image from 'next/image';
 const Page = () => {
 
 
@@ -98,7 +99,7 @@ const Page = () => {
 
               <div className="">
                 <div className={`mx-auto w-max my-2 `}>
-                  <img src="./image 4.png" alt="" className='w-24' />
+                  <Image height={1000} width={1000}  src="/me.png" alt="" className='w-24' />
                 </div>
                 <div className={` text-center h-fit mb-1 `}>
                   I am <span className='text-lg font-semibold'>Prerna Kangtani</span>
@@ -138,12 +139,12 @@ const Page = () => {
                       </div>
                       <div className=''>prean14012003@gmail.com</div>
                     </Link>
-                    <div className="p-2 col-span-2">
+                    {/* <div className="p-2 col-span-2">
                       <div className='text-gray-300'>
                         <IoLocationOutline className='inline' /> <span> Address</span>
                       </div>
                       <div className=''>2/32, Bohra Market, Ichalkaranji</div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -166,51 +167,51 @@ const Page = () => {
               <div className="grid grid-cols-4 grid-rows-2 gap-4 p-2">
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./JavaScript-logo.png' className="h-10" />
+                    <Image height={1000} width={1000}  src='/JavaScript-logo.png' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>JavaScript</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center '>
-                    <img src='./pngegg.png' className="h-10" />
+                    <Image height={1000} width={1000}  src='/pngegg.png' className="h-10" />
                   </div>
 
                   <div className={` ${Style.text} ${Style.text} `}>React JS</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center '>
-                    <img src='./next.svg' className="h-10" />
+                    <Image height={1000} width={1000}  src='/next.svg' className="h-10" />
                   </div>
 
                   <div className={` ${Style.text} ${Style.text} `}>Next JS</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./node-js.svg' className="h-10" />
+                    <Image height={1000} width={1000}  src='/node-js.svg' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>Node JS</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./HTML.png' className="h-10" />
+                    <Image height={1000} width={1000}  src='/HTML.png' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>HTML, CSS</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./new-php-logo.svg' className="h-10" />
+                    <Image height={1000} width={1000}  src='/new-php-logo.svg' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>PHP</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./1012821_code_development_logo_mysql_icon.png' className="h-10" />
+                    <Image height={1000} width={1000}  src='/1012821_code_development_logo_mysql_icon.png' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>MYSQL</div>
                 </div>
                 <div className={`${Style.borderinner} ${Style.border} p-2 `}>
                   <div className='flex justify-center pb-1'>
-                    <img src='./figma.svg' className="h-10" />
+                    <Image height={1000} width={1000}  src='/figma.svg' className="h-10" />
                   </div>
                   <div className={` ${Style.text} ${Style.text} `}>Figma</div>
                 </div>
@@ -229,22 +230,34 @@ const Page = () => {
                 We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.
               </div>
 
-              <div className="grid grid-cols-4 grid-rows-1 gap-4 p-1">
+              <div className="grid grid-cols-2 gap-4 p-1">
                 <a href='https://mahalaxmibiogreen.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
                   <div className={` ${Style.text} p-1 mb-1`}>Shree Mahalxmi</div>
-                  <img src="./shree.png" alt="" className='h-16 p-1 rounded-sm' />
+                  <Image height={1000} width={1000}  src="/shree.png" alt="" className='h-16 p-1 rounded-sm' />
                 </a>
-                <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                <a href='https://trulygood.in/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                  <div className={` ${Style.text} p-1 mb-1`}>Truly Good</div>
+                  <Image height={1000} width={1000}  src="/trulyGood.png" alt="" className='h-16 p-1 rounded-sm' />
+                </a>
+                <a href='https://india-electricals.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                  <div className={` ${Style.text} p-1 mb-1`}>India Electricals</div>
+                  <Image height={1000} width={1000}  src="/indiaelectricals.png" alt="" className='h-16 p-1 rounded-sm' />
+                </a>
+                <a href='https://frontend-patronage.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
+                  <div className={` ${Style.text} p-1 mb-1`}>Patronage</div>
+                  <Image height={1000} width={1000}  src="/patronage.png" alt="" className='h-16 p-1 rounded-sm' />
+                </a>
+                {/* <a href='https://rojim.vercel.app/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
                   <div className={`${Style.text} p-1 mb-1`}>Portfolio</div>
-                  <img src="./rojim.png" alt="" className='h-16  p-1 rounded-sm' />
-                </a>
+                  <Image height={1000} width={1000}  src="/rojim.png" alt="" className='h-16  p-1 rounded-sm' />
+                </a> */}
                 <a href='http://irontribe.in' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
-                  <div className={` ${Style.text} p-1 mb-1`}>Web Designing</div>
-                  <img src="./ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                  <div className={` ${Style.text} p-1 mb-1`}>Iron Tribe</div>
+                  <Image height={1000} width={1000}  src="/ironTribe.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                 </a>
                 <a href='https://www.badrivishalgroup.com/' target='_blank' className={`${Style.border} ${Style.borderinner} cursor-pointer w-full`}>
                   <div className={`${Style.text} p-1 mb-1`}>Badri Vishal</div>
-                  <img src="./badri.png" alt="" className='h-16 w-full p-1 rounded-sm' />
+                  <Image height={1000} width={1000}  src="/badri.png" alt="" className='h-16 w-full p-1 rounded-sm' />
                 </a>
 
               </div>
@@ -282,12 +295,12 @@ const Page = () => {
                     <span className='pl-2 text-xs'>Web Development Training, Acmegrade</span>
                   </div>
                 </div>
-                <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
+                {/* <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
                   <div className='flex justify-center'>
                     <span >2022 - 2023</span>
                     <span className='pl-2 text-xs'>Research Associate, Ameliorate Digital</span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
