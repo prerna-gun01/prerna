@@ -288,6 +288,7 @@ const Page = () => {
                     <span >2024 - Present</span>
                     <span className='pl-2 text-xs'>Jr. Developer, TF Strategies Pvt. Ltd</span>
                   </div>
+                  
                 </div>
                 <div className="grid grid-cols-1 grid-rows-1  mb-2 mt-2">
                   <div className='flex justify-center'>
